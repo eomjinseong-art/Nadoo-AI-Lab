@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { PROJECTS, YOUTUBE_CHANNELS, Project } from "@/app/data/projects";
+import { PROJECTS, YOUTUBE_CHANNELS, Project } from "@/data/projects";
 import { 
   Sparkles, 
   Youtube, 
