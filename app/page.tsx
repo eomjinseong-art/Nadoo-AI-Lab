@@ -1,14 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
-import { PROJECTS, YOUTUBE_CHANNELS, Project } from "@/data/projects";
+import { PROJECTS, YOUTUBE_CHANNELS } from "@/data/projects";
 import { 
   Sparkles, 
   Youtube, 
   ExternalLink, 
   Send, 
-  Bot, 
-  Layers, 
   Cpu, 
   CheckCircle2, 
   ArrowUpRight 
