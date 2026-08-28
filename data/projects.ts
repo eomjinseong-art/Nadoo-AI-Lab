@@ -134,4 +134,12 @@ export const PROJECTS: Project[] = [
     tags: ["AI Agent", "RPA", "Workflow"],
     status: "AUTOMATED",
   },
+    {
+    id: "14",
+    title: "나두 탭링크 (Nadoo Automation) 프로젝트",
+    description: "스마트폰으로 틱톡,유튜브 등 영상을 보다가 링크가 나오면 아이폰 뒷면 두번 두드리기로 바로가기 ",
+    category: "AI Automation",
+    tags: ["AI Agent", "RPA", "Workflow"],
+    status: "AUTOMATED",
+  },
 ];
