@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { VisitorCounter } from "@/components/VisitorCounter";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -59,6 +60,12 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         {children}
+        <footer className="max-w-6xl mx-auto w-full px-4 text-center text-xs text-gray-600 border-t border-gray-900 pt-8 pb-10 mt-12">
+          <p className="flex items-center justify-center gap-3">
+            <span>© {new Date().getFullYear()} Nadoo AI Lab. All rights reserved.</span>
+            <VisitorCounter />
+          </p>
+        </footer>
       </body>
     </html>
   );

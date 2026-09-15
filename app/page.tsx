@@ -271,11 +271,6 @@ export default function Home() {
           </form>
         )}
       </section>
-
-      {/* FOOTER */}
-      <footer className="text-center text-xs text-gray-600 border-t border-gray-900 pt-8">
-        <p>© {new Date().getFullYear()} Nadoo AI Lab. All rights reserved.</p>
-      </footer>
     </main>
   );
 }
